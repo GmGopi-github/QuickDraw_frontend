@@ -1,0 +1,17 @@
+<div class="container">
+    <a routerLink="/home"><p><b>&larr;BACK</b></p></a>
+    <br>
+    <div class="row">
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-4 text-center">
+            <h1 class="cls14"><b>DRAW INSIDE THIS CANVAS</b></h1>
+            <canvas id="mycanvas" width="300" height="400" class="cls11"></canvas>
+            <div id="result">{{result}}</div>
+        </div>
+        <div class="col-md-4 text-center">
+            <p><button class=" cls12" (click)="saveimage()"><b>Confirm Selection</b></button></p>
+            <p id="clear"><button class="cls13"><b>Clear Canvas</b></button></p>
+        </div>
+    </div>
+</div>

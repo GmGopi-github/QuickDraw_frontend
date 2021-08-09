@@ -1,0 +1,7 @@
+/* You can add global styles to this file, and also import other style files */
+.cls1{
+    background-image:url("C:\Users\gm127\OneDrive\Documents/background.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}

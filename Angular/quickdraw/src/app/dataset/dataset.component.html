@@ -1,0 +1,35 @@
+<div class="container-fluid">
+    <a routerLink="/home"><p><b>&larr;BACK</b></p></a>
+    <br>
+    <div class="row">
+        <div class="col-md-4">
+           <p class="cls6 text-center"><b>steps to play</b></p>
+            <br>
+            <div class="cls3">
+                <p>&#9758;Choose one of the labels provided on the right side.</p>
+                <p>&#9758;Draw inside the canvas.</p>
+                <p>&#9758;Press confirm button.</p>
+                <p>&#9758;If you make any mistake while drawing then press clear canvas button</p>
+            </div>
+        </div>
+        <div class="col-md-4 text-center">
+            <p class="cls7"><b>DRAW INSIDE THIS CANVAS</b></p>
+            <canvas id="mycanvas" width="350" height="400" class="cls8"></canvas>
+        </div>
+        <div class="col-md-4 text-center">
+            <p class="cls6"><b>Choose from the labels</b></p>
+            <p><button (click)="getclassname('Bird')">BIRD</button></p>
+            <p><button (click)="getclassname('Flower')">FLOWER</button></p>
+            <p><button (click)="getclassname('Hand')">HAND</button></p>
+            <p><button (click)="getclassname('House')">House</button></p>
+            <p><button (click)="getclassname('Mug')">MUG</button></p>
+            <p><button (click)="getclassname('Pencil')">PENCIL</button></p>
+            <p><button (click)="getclassname('Spoon')">SPOON</button></p>
+            <p><button (click)="getclassname('Sun')">SUN</button></p>
+            <p><button (click)="getclassname('Tree')">TREE</button></p>
+            <p><button (click)="getclassname('Umbrella')">UMBRELLA</button></p>
+            <p><button class=" cls4" (click)="saveimage()"><b>Confirm Selection</b></button></p>
+            <p><button class="cls5" id="clear"><b>Clear Canvas</b></button></p>
+        </div>
+    </div>
+</div>

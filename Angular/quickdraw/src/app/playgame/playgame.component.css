@@ -1,0 +1,42 @@
+a{ 
+    color: snow;
+    margin-left: 20px;
+    text-shadow: 2px 2px black;
+    }
+    button:hover{
+        background-color: white;
+    }
+    button{
+        width:5cm;
+        text-align: center;
+        border-color: rgb(47, 255, 64);
+    }
+.cls11{
+background-color:white;
+border-radius: 10px;
+border-bottom: 17px solid sandybrown;
+border-top:10px solid sandybrown;
+border-left:7px solid sandybrown;
+border-right:7px solid sandybrown;
+
+}
+.cls12{
+background-color: greenyellow;
+color: rgba(137, 43, 226, 0.986);
+border-radius: 20px ;
+margin-top:2cm;
+}
+.cls13{
+background-color: red;
+color: black;
+border-radius: 20px ;
+margin-top:0.1cm;
+}
+.cls14{
+text-shadow: 2px 2px rgb(167, 85, 4);
+color:ghostwhite;
+font-size:medium;
+}
+#result{
+    color: snow;
+}
